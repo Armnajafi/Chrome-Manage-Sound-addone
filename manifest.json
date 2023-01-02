@@ -1,0 +1,14 @@
+{
+    "name": "ManageSound",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "Manage playback with sound",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "main.js"
+    }
+  }
